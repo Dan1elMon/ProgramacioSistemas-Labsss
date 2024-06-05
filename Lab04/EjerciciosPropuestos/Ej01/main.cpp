@@ -4,7 +4,7 @@ using namespace std;
 
 void displayPascalTriangle(int n) {
     // Creando un arreglo utilizando long long   como tipo de dato
-    long long arr[n * (n + 1) / 2];
+    int arr[n * (n + 1) / 2];
 
     // inicializando la variable indice
     int idx = 0;
