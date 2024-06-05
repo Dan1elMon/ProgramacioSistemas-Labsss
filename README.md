@@ -1,1 +1,2 @@
-# Programaci-nSistemas-Lab
+# ProgramacionSistemas-Labs
+##Autor:Chura Monroy Daniel Wilston
