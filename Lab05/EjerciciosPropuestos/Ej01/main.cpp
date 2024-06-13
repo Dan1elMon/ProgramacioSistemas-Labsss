@@ -1,22 +1,17 @@
+// main.cpp
+
 #include <iostream>
 #include "funciones.h"
 
-using namespace std;
-
 int main() {
-    Fecha fecha1, fecha2;
+    Fecha fecha1 = {1, 1, 2023}; // Primera fecha (día, mes, año)
+    Fecha fecha2 = {15, 6, 2024}; // Segunda fecha (día, mes, año)
 
-    cout << "Ingrese la primera fecha (día, mes, año): ";
-    cin >> fecha1.dia >> fecha1.mes >> fecha1.anio;
-    
-    cout << "============================================";
+    std::cout << "Primera fecha: " << fecha1.dia << "/" << fecha1.mes << "/" << fecha1.anio << std::endl;
+    std::cout << "Segunda fecha: " << fecha2.dia << "/" << fecha2.mes << "/" << fecha2.anio << std::endl;
 
-    cout << "Ingrese la segunda fecha (día, mes, año): ";
-    cin >> fecha2.dia >> fecha2.mes >> fecha2.anio;
-
-    int diferencia = calcularDiferenciaDias(fecha1, fecha2);
-
-    cout << "La diferencia en días entre las dos fechas es: " << diferencia << " días." << endl;
+    int diferencia = calcularDiferencia(fecha1, fecha2);
+    std::cout << "Días entre las fechas: " << diferencia << std::endl;
 
     return 0;
 }

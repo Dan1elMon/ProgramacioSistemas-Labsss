@@ -1,5 +1,10 @@
+// funciones.h
+
 #ifndef FUNCIONES_H
 #define FUNCIONES_H
+
+#include <iostream>
+#include <cmath>
 
 struct Fecha {
     int dia;
@@ -7,8 +12,9 @@ struct Fecha {
     int anio;
 };
 
-int calcularDiferenciaDias(const Fecha& fecha1, const Fecha& fecha2);
 bool esBisiesto(int anio);
-int diasDelMes(int mes, int anio);
+int diasEnMes(int mes, int anio);
+int diasDesdeInicio(const Fecha& fecha);
+int calcularDiferencia(const Fecha& fecha1, const Fecha& fecha2);
 
-#endif
+#endif // FUNCIONES_H
