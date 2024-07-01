@@ -26,7 +26,7 @@ void Agenda::mostrarDatosPersona(const std::string& nombre) const {
             std::cout << "Teléfono Móvil: " << fichas[i].telefonoMovil << std::endl;
             std::cout << "Email: " << fichas[i].email << std::endl;
             std::cout << "Fecha de Nacimiento: " << fichas[i].diaNacimiento << "/"
-                      << fichas[i].mesNacimiento << "/" << fichas[i].anoNacimiento << std::endl;
+                << fichas[i].mesNacimiento << "/" << fichas[i].anoNacimiento << std::endl;
             return;
         }
     }
