@@ -1,0 +1,6 @@
+Odd_even_sort: Tiempo O(n^2), Espacio O(1).
+Generate_list: Tiempo O(n), Espacio O(1).
+Print_list: Tiempo O(n), Espacio O(1).
+Read_list: Tiempo O(n), Espacio O(1).
+Get_args: Tiempo O(1), Espacio O(1).
+Usage: Tiempo O(1), Espacio O(1).

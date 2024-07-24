@@ -1,0 +1,9 @@
+
+/*a
+Analisis costo computacional
+Generate_list  O(n)
+Print_list  O(n)
+Read_list   O(n)
+odd_even_sort_phase     O(n/2)
+
+*/
